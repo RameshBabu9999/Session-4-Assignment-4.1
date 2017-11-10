@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PseudoClass</title>
+<style>
+.container{
+	border:2px solid blue;
+	margin: 0px;
+	padding: 7px 4px;
+	background-color: grey;
+	width:100px;
+}
+li:hover{
+	color:blue;
+	cursor: crosshair;
+}
+</style>
+</head>
+<body>
+<h1>Types of Languages</h1>
+<p>Here are some of the most speaking languages in <b><mark>INDIA</mark></b>.</p>
+<div class="container">
+<ol type:"A" start:"A";>
+<li>Telugu</li>
+<li>Tamil</li>
+<li>Kannad</li>
+<li>Oriya</li>
+<li>Hindi</li>
+</ol>
+</div>
+</body>
+</html>
